@@ -1,4 +1,4 @@
-package sec05;
+package sec06;
 
 /*
  * db 연결 및 종료 관리

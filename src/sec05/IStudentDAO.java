@@ -21,9 +21,11 @@ public interface IStudentDAO {
     public void updateStudent(StudentDTO dto);
 
     // 과별 학생 검색 : 여러 학생 반환
-    public ArrayList<StudentDTO> searchStudent(String dptName);
+    public ArrayList<StudentDTO> searchStudent(String dptNo);
+
+    public ArrayList<StudentDTO> searchStudentBydptName(String dptName);
 
     // 학생번호(id) 존재 여부 반환
-    public StudentDTO searchStudentNO(String stdNo);
+    public boolean searchStudentNO(String stdNo);
 
 }

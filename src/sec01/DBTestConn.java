@@ -30,7 +30,7 @@ public class DBTestConn {
                 System.out.println("db 연결 실패");
             }
         } catch (Exception e){
-            e.printStackTrace(); //오류 발생할때까지의 과정을
+            e.printStackTrace(); //오류 발생할때까지의 과정을 추적해서 오류 내용 출력
         }
     }
 }
